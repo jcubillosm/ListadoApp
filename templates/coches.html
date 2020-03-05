@@ -1,0 +1,60 @@
+<h1><i class="fa fa-car"></i> Coches</h1>
+<h4>Listado de coches</h4>
+<hr>
+
+<div class="row">
+	Busqueda por marca:
+	<br>
+	<input type="text" ng-model="busqueda.marca " class="form-control" placeholder="Buscar por marca">            
+	<br>
+
+	Busqueda por modelo:
+	<br>
+	<select ng-model="busqueda.modelo" class="form-control">
+		<option value="">Cualquiera</option>
+		<option value="{{modelo}}"  ng-repeat="modelo in coches.modelos">{{modelo}}</option>
+	</select>
+	<br>
+
+
+</div>
+<div class="row">
+
+	
+	<table class="table table-striped">
+		<tr>
+			<th>id</th>
+			<th><a class="point" ng-click="column='marca'; reverse = !reverse;">Marca</a></th>
+			<th><a class="point" ng-click="column='modelo'; reverse = !reverse;">Modelo</a></th>
+			<th>Color</th>
+			<th>Año</th>
+			<th>Precio</th>
+			<th>Ver</th>
+		</tr>
+	
+		<tr ng-repeat="coche in coches.listado | limitTo:position | limitTo:-4 | filter:busqueda | orderBy:column:reverse">
+			<td>{{coche.id}}</td>
+			<td>{{coche.marca}}</td>
+			<td>{{coche.modelo}}</td>
+			<td>{{coche.color}}</td>
+			<td>{{coche.anio}}</td>
+			<td>{{coche.precio }}</td>
+			<td> <a href="#/coche/{{coche.id}}">Ver Registro</a> </td>
+		</tr>
+
+	</table>
+
+	<br>
+
+	<button class="btn btn-primary" ng-click="previous()" ng-disabled="previousBtn">
+		<i class="fa fa-chevron-left"></i>
+		Anteriores
+	</button>
+	
+	<button class="btn btn-primary" ng-click="next()" ng-disabled="nextBtn">
+		Siguientes
+		<i class="fa fa-chevron-right"></i>
+	</button>
+
+
+</div>

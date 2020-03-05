@@ -1,0 +1,107 @@
+{
+	"listado": [
+		{
+			"id": "001",
+			"marca": "marca1",
+			"modelo": "modelo2",
+			"color": "color1",
+			"anio": "anio1",
+			"precio": "10000000"
+		},
+		{
+			"id": "002",
+			"marca": "marca2",
+			"modelo": "modelo1",
+			"color": "color2",
+			"anio": "anio2",
+			"precio": "10000000"
+		},
+		{
+			"id": "003",
+			"marca": "marca3",
+			"modelo": "modelo3",
+			"color": "color3",
+			"anio": "anio3",
+			"precio": "10000000"
+		},
+		{
+			"id": "004",
+			"marca": "marca4",
+			"modelo": "modelo4",
+			"color": "color4",
+			"anio": "anio4",
+			"precio": "10000000"
+		},
+		{
+			"id": "005",
+			"marca": "marca5",
+			"modelo": "modelo5",
+			"color": "color5",
+			"anio": "anio5",
+			"precio": "10000000"
+		},
+		{
+			"id": "006",
+			"marca": "marca1",
+			"modelo": "modelo2",
+			"color": "color1",
+			"anio": "anio1",
+			"precio": "10000000"
+		},
+		{
+			"id": "007",
+			"marca": "marca2",
+			"modelo": "modelo1",
+			"color": "color2",
+			"anio": "anio2",
+			"precio": "10000000"
+		},
+		{
+			"id": "008",
+			"marca": "marca3",
+			"modelo": "modelo3",
+			"color": "color3",
+			"anio": "anio3",
+			"precio": "10000000"
+		},
+		{
+			"id": "009",
+			"marca": "marca4",
+			"modelo": "modelo4",
+			"color": "color4",
+			"anio": "anio4",
+			"precio": "10000000"
+		},
+		{
+			"id": "010",
+			"marca": "marca5",
+			"modelo": "modelo5",
+			"color": "color5",
+			"anio": "anio5",
+			"precio": "10000000"
+		},
+		{
+			"id": "011",
+			"marca": "marca3",
+			"modelo": "modelo3",
+			"color": "color3",
+			"anio": "anio3",
+			"precio": "10000000"
+		},
+		{
+			"id": "012",
+			"marca": "marca4",
+			"modelo": "modelo4",
+			"color": "color4",
+			"anio": "anio4",
+			"precio": "10000000"
+		}
+	],
+	"modelos": [
+		"modelo1",
+		"modelo2",
+		"modelo3",
+		"modelo4",
+		"modelo5"
+	]
+}
